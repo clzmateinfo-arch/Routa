@@ -294,11 +294,9 @@ async function handleMessage(msg) {
       const reply = [
         'Commands:',
         '/start - subscribe',
-        'help - show commands',
-        'status - app status',
         'ser - find bus service and book',
-        'cancel - cancel current flow',
-        '/report <text> - send report to admins'
+
+        'help - show commands',
       ].join('\n');
       await bot.sendMessage(chatId, reply);
       return;
