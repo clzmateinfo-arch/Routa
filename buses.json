@@ -1,0 +1,60 @@
+[
+    {
+        "id": "bus-1",
+        "name": "Route A - Morning",
+        "route": [
+            "Maple St",
+            "Oak Ave",
+            "School"
+        ],
+        "times": [
+            "07:00",
+            "07:30",
+            "08:00"
+        ],
+        "capacity": 40,
+        "service": "both",
+        "driver": {
+            "name": "Sam",
+            "phone": "+94123456789"
+        }
+    },
+    {
+        "id": "bus-2",
+        "name": "Route B - Morning",
+        "route": [
+            "Pine Rd",
+            "Elm Rd",
+            "School"
+        ],
+        "times": [
+            "07:15",
+            "07:45"
+        ],
+        "capacity": 30,
+        "service": "up",
+        "driver": {
+            "name": "Ravi",
+            "phone": "+94771234567"
+        }
+    },
+    {
+        "id": "bus-3",
+        "name": "Route C - Afternoon",
+        "route": [
+            "School",
+            "Maple St",
+            "Oak Ave"
+        ],
+        "times": [
+            "15:00",
+            "15:30"
+        ],
+        "capacity": 35,
+        "service": "down",
+        "driver": {
+            "name": "Nimal",
+            "phone": "+94779876543"
+        }
+    }
+]
